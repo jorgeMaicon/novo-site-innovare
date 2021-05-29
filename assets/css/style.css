@@ -1889,3 +1889,10 @@ button:focus {
 .texto-contato {
     color: white !important;
 }
+
+.main-menu .navigation li.dropdown > a:after {
+    content: '';
+    position: initial;
+    top: 0;
+    right: -14px;
+}
